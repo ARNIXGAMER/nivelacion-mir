@@ -1,4 +1,4 @@
-# Comandos utilziados para ejercicios
+# Comandos utilizados para ejercicios
 
 1. Abrir la consola e imprimir la ubicación actual
     - **pwd**
