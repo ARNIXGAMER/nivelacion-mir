@@ -9,6 +9,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form action="" class="form-container">
+        <h1><strong>Login</strong></h1>
+
+        <label for="user-email" class="user-email-label">Email</label>
+        <input type="email" name="mail" id="user-email" required>
+
+        <label for="user-password" class="user-password-label">Password</label>
+        <input type="password" name="Password" id="user-password" required>
+
+        <label for="user-gender" class="user-geneder-label">Género</label>
+        <select name="gender" id="user-gender" required>
+            <option value="Null" selected>Seleccione una opción</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="No-respuesta">Prefiero no responder</option>
+        </select>
+
+        
+        <label for="terms" class="terms"><input type="checkbox" name="terms" id="terms"> Acepto los términos</label>
+
+        <button class="button-ingresar">Ingresar</button>
+    </form>
 </body>
 </html>
