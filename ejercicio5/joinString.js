@@ -2,7 +2,7 @@ function join(arr){
     let result = "";
     for(let i=0; i < arr.length; i++){
         let arrIndex = arr[i];
-        if(arrIndex !== (i-1)){
+        if(i !== (arr.length -1)){
             result = result.concat(arrIndex + " ");
         }else{
             result = result.concat(arrIndex);
