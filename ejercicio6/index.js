@@ -5,3 +5,5 @@ let pedro = {
     hobbies: ["programar","squash","piano"]
 };
 console.log(pedro.edad)
+pedro.estatura = 1.8;
+console.log(pedro)
