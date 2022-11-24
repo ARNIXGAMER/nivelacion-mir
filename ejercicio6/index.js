@@ -4,8 +4,9 @@ let pedro = {
     activo: true,
     hobbies: ["programar","squash","piano"]
 };
-console.log(pedro.edad)
 pedro.estatura = 1.8;
-console.log(pedro)
 delete pedro.activo
-console.log(pedro)
+
+for (let key in pedro) {
+    console.log(key,":", pedro[key]);
+}
