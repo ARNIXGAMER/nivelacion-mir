@@ -7,6 +7,12 @@ let pedro = {
 pedro.estatura = 1.8;
 delete pedro.activo
 
+pedro.saluda = function(){
+    return ("Hola, me llamo " + this.nombre); 
+}
+
 for (let key in pedro) {
     console.log(key,":", pedro[key]);
 }
+
+console.log(pedro.saluda())
