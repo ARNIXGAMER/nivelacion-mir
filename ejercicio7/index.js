@@ -9,3 +9,5 @@ receta.nombre = "Sandwich"
 receta.ingredientes = []
 //paso 4
 receta.ingredientes.push({nombre: "Pan", cantidad: 2})
+//Paso 5
+receta.ingredientes.push({nombre: "Queso", cantidad: 1})
