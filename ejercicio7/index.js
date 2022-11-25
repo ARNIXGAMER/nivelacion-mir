@@ -12,3 +12,5 @@ receta.ingredientes.push({nombre: "Pan", cantidad: 2})
 receta.ingredientes.push({nombre: "Queso", cantidad: 1})
 //Paso 6
 console.log(receta.ingredientes[0].nombre)
+//paso 7
+console.log(receta.ingredientes[0].cantidad + receta.ingredientes[1].cantidad)
